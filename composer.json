@@ -1,0 +1,17 @@
+{
+	"name": "snoop-taj/Recruitment",
+	"type": "cakephp-plugin",
+	"description": "Croogo Plugin - Web based quiz plugin for Recruitment with front-end application form that sits on top of the Croogo content Management System for PHP.",
+	"homepage": "https://github.com/snoop-taj/Recruitment",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Abdulrezak",
+			"homepage": "http://etechnologia.co.uk"
+		}
+	],
+	"require": {
+		"php": ">=5.3.0",
+		"composer/installers": "*"
+	}
+}
