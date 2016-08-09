@@ -1,0 +1,28 @@
+html, body {
+        background: #F0F0F0;
+        margin: 0 auto;
+        font-family: inherit;
+        padding: initial;
+        height: initial;
+}
+
+.tab-content {
+        margin-top: 20px;
+}
+
+.box-title {
+        border: none;
+        padding: initial;
+        font-size: 16px;
+}
+
+.box-content {
+        min-height: 0;
+        background: none;
+        padding: 0;
+        border: none;
+}
+
+form {
+    margin: initial;
+}
