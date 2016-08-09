@@ -4,9 +4,10 @@ Web based quiz plugin for **Recruitment** with front-end application form that s
 It is powered by [CakePHP](http://cakephp.org) MVC Framework.
 
 ## Requirements
-    * PHP 5.2 or higher
-    * MySQL 4.1 or higher
-    * Apache with mod_rewrite
+
+    * PHP 5.2 or higher.
+    * MySQL 4.1 or higher.
+    * Apache with mod_rewrite.
 
 ## Installation
 
