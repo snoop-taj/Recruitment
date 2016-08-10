@@ -1,16 +1,18 @@
 <?php
-App::uses('RecruitmentAppController', 'Recruitment.Controller');
+
 /**
  * Results Controller
  *
- * @category    Result.Controller
- * @package     Recruitment.Result.Controller
+ * @category    Results.Controller
+ * @package     Recruitment.Results.Controller
  * @property    Result $Result
  * @version     1.0
  * @author      Zak Taj <info@etechnologia.co.uk>
  * @license     http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link        https://github.com/snoop-taj/Recruitment
  */
+App::uses('RecruitmentAppController', 'Recruitment.Controller');
+
 class ResultsController extends RecruitmentAppController {
 
 /**

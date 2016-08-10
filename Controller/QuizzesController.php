@@ -1,10 +1,9 @@
 <?php
-App::uses('CakeEmail', 'Network/Email');
-App::uses('RecruitmentAppController', 'Recruitment.Controller');
 /**
  * Quizzes Controller
+ *
  * @category    Quizzes.Controller
- * @package     Recruitment.Quizzes.Controller
+ * @package     Recruitment.Quizzez.Controller
  * @property    Quiz $Quiz
  * @version     1.0
  * @author      Zak Taj <info@etechnologia.co.uk>
@@ -12,6 +11,9 @@ App::uses('RecruitmentAppController', 'Recruitment.Controller');
  * @link        https://github.com/snoop-taj/Recruitment
  * @property 
  */
+App::uses('CakeEmail', 'Network/Email');
+App::uses('RecruitmentAppController', 'Recruitment.Controller');
+
 class QuizzesController extends RecruitmentAppController {
 
         public $uses = array(

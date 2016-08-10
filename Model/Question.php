@@ -25,7 +25,7 @@ class Question extends RecruitmentAppModel {
 				'rule' => array('notEmpty'),
 				'message' => 'Question type cannpt be empty',
 				'required' => false,
-
+                            
 			),
 		),
 		'question' => array(
@@ -139,7 +139,7 @@ class Question extends RecruitmentAppModel {
         private function _editOptions($dataScore, $questionType, $option) {
                 $Option = ClassRegistry::init('Option'); 
                 // will be removed on production 
-                $Option->useDbConfig = 'test';
+//                $Option->useDbConfig = 'test';
                 if (is_array($option)) {
                         foreach ($option as $key => $val) {
                                 $score = 0;
@@ -197,7 +197,7 @@ class Question extends RecruitmentAppModel {
                         }
                         $fieldList = array('type', 'question');
                         $success = parent::save($data, $validate, $fieldList); 
-                        if ($success) { ;
+                        if ($success) {
                                 $lastId = $this->id;
                                 return $this->_saveOptions($lastId, $dataScore, $questionType, $option);
                         } else {
@@ -221,7 +221,7 @@ class Question extends RecruitmentAppModel {
         private function _saveOptions($qId, $dataScore, $questionType, $option) {
                 $Option = ClassRegistry::init('Option'); 
                 // will be removed on production 
-                $Option->useDbConfig = 'test';
+//                $Option->useDbConfig = 'test';
                 if (is_array($option)) {
                         foreach ($option as $key => $val) {
                                 $score = 0;
