@@ -1,0 +1,13 @@
+{
+    "name": "Online Recruitment",
+    "description": "Online Recruitment plugin",
+    "author": "Zak",
+    "authorEmail": "info@etechnologia.co.uk",
+
+    "dependencies": {
+        "plugins": [
+            "acl",
+            "extensions"
+        ]
+    }
+}
